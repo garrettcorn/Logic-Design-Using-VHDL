@@ -1,0 +1,12 @@
+{ "Info" "0" "" "qar.tcl version #1" {  } {  } 0 0 "qar.tcl version #1" 0 0 "0" 0 0 1460089260747 ""}
+{ "Info" "0" "" "Including '-use_file_set basic' by default" {  } {  } 0 0 "Including '-use_file_set basic' by default" 0 0 "0" 0 0 1460089261672 ""}
+{ "Info" "0" "" "All project revisions will be stored in common archive top_tmp_archive.qar" {  } {  } 0 0 "All project revisions will be stored in common archive top_tmp_archive.qar" 0 0 "0" 0 0 1460089261672 ""}
+{ "Info" "0" "" "Initializing files for 'top' revision" {  } {  } 0 0 "Initializing files for 'top' revision" 0 0 "0" 0 0 1460089261807 ""}
+{ "Info" "0" "" "File Set 'Source control' contains:" { { "Info" "0" "" "Project source and settings files" {  } {  } 0 0 "Project source and settings files" 0 0 "0" 0 0 1460089261817 ""} { "Info" "0" "" "Automatically detected source files" {  } {  } 0 0 "Automatically detected source files" 0 0 "0" 0 0 1460089261817 ""}  } {  } 0 0 "File Set 'Source control' contains:" 0 0 "0" 0 0 1460089261817 ""}
+{ "Info" "0" "" "Archive will store files relative to the closest common parent directory" {  } {  } 0 0 "Archive will store files relative to the closest common parent directory" 0 0 "0" 0 0 1460089262261 ""}
+{ "Info" "IPRJ_ARC_TCL_TCL_USING_COMMON_DIR" "C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ " "Using common directory C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/" {  } {  } 0 13213 "Using common directory %1!s!" 0 0 "Design Software" 0 -1 1460089262359 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1460089262453 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1460089262453 ""}
+{ "Info" "0" "" "Generated archive 'top_tmp_archive.qar'" {  } {  } 0 0 "Generated archive 'top_tmp_archive.qar'" 0 0 "0" 0 0 1460089262453 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1460089262453 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1460089262453 ""}

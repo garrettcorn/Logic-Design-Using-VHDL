@@ -1,0 +1,29 @@
+Quartus Prime Archive log --	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/top_tmp_archive.qarlog
+
+Archive:	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/top_tmp_archive.qar
+Date:		Tue Mar 01 11:36:27 2016
+Quartus Prime		15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/Chain6.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/assignment_defaults.qdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/output_files/Chain1.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/output_files/Chain2.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/output_files/Chain3.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/output_files/Chain4.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/output_files/Chain5.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/output_files/char_decoder.vhd
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/output_files/dflipflop.vhd
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/top.qpf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/top.qsf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/top.vhd
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Mar 01 11:36:37 2016
+Source archive file:	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9a_Ripple_Counter_and_Character_Displays/top_tmp_archive.qar
+Archive was extracted into	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9b_Walking_1_FSM/
+		 - successfully.

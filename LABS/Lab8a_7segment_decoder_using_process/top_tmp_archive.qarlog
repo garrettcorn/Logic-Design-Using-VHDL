@@ -1,0 +1,27 @@
+Quartus Prime Archive log --	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/top_tmp_archive.qarlog
+
+Archive:	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/top_tmp_archive.qar
+Date:		Wed Jan 27 22:06:35 2016
+Quartus Prime		15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/output_files/Chain1.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/output_files/Chain2.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/output_files/Chain3.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/output_files/Chain4.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/output_files/Chain5.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/output_files/char_decoder.vhd
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/top.qpf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/top.qsf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/top.vhd
+c:/altera_lite/15.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Jan 27 22:06:45 2016
+Source archive file:	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8a_7segment_decoder_using_process/top_tmp_archive.qar
+Archive was extracted into	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/lab8b_Design_Resuse_and_Binary_Characters_part2/
+		 - successfully.

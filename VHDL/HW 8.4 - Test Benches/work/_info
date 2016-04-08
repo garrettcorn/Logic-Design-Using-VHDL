@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera_lite/15.1
+Esystemj
+Z0 w1454459303
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/02_report_and_assert_statements_test_bench
+Z4 8C:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/02_report_and_assert_statements_test_bench/SystemJ.vhd
+Z5 FC:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/02_report_and_assert_statements_test_bench/SystemJ.vhd
+l0
+L4
+VOZEhP^dnk]@[I_DT9S`b<0
+!s100 >B8XCYHPWT<az`A:ID;371
+Z6 OV;C;10.4b;61
+32
+Z7 !s110 1455911744
+!i10b 1
+Z8 !s108 1455911744.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/02_report_and_assert_statements_test_bench/SystemJ.vhd|
+Z10 !s107 C:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/02_report_and_assert_statements_test_bench/SystemJ.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Asystemj_arch
+R1
+R2
+DEx4 work 7 systemj 0 22 OZEhP^dnk]@[I_DT9S`b<0
+l11
+L9
+V[n;VhCoQ:^oU_ffPSz:VV2
+!s100 O2jI7BhA^cU2QHaLfkQU=1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esystemj_tb
+Z13 w1454957273
+R1
+R2
+R3
+Z14 8C:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/02_report_and_assert_statements_test_bench/SystemJ_TB.vhd
+Z15 FC:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/02_report_and_assert_statements_test_bench/SystemJ_TB.vhd
+l0
+L4
+V=<`WA9L0RX===a4a;_nD50
+!s100 dj]CS[KJeicOHk[XJNEf<2
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/02_report_and_assert_statements_test_bench/SystemJ_TB.vhd|
+Z17 !s107 C:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/02_report_and_assert_statements_test_bench/SystemJ_TB.vhd|
+!i113 1
+R11
+R12
+Asystemj_tb_arch
+R1
+R2
+Z18 DEx4 work 10 systemj_tb 0 22 =<`WA9L0RX===a4a;_nD50
+l17
+L7
+Z19 VR^AdC`l1oUmaVk0eUjIRV3
+Z20 !s100 4D;igDJU6OlcP;B4EYzHB3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

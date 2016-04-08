@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/altera_lite/15.1
+Ecounter_16bit_updown
+Z0 w1456350223
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 9.4 - Modeling Counters in VHDL
+Z5 8E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 9.4 - Modeling Counters in VHDL/Counter_16bit_UpDown.vhd
+Z6 FE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 9.4 - Modeling Counters in VHDL/Counter_16bit_UpDown.vhd
+l0
+L5
+VI<9fM_:d]zLSH:Lf@MkZ:0
+!s100 A<J1zNe9Nj?Z84H>A:Fj>1
+Z7 OV;C;10.4b;61
+32
+Z8 !s110 1456350225
+!i10b 1
+Z9 !s108 1456350225.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 9.4 - Modeling Counters in VHDL/Counter_16bit_UpDown.vhd|
+Z11 !s107 E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 9.4 - Modeling Counters in VHDL/Counter_16bit_UpDown.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Acounter_16bit_updown_arch
+R1
+R2
+R3
+DEx4 work 20 counter_16bit_updown 0 22 I<9fM_:d]zLSH:Lf@MkZ:0
+l16
+L11
+VQjM4GdEz4aJP9ehiNR:h?2
+!s100 AzZUG6m=UeB[NzQjkPGR]1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecounter_16bit_updown_tb
+Z14 w1456348403
+R1
+R2
+R3
+R4
+Z15 8E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 9.4 - Modeling Counters in VHDL/Counter_16bit_UpDown_TB.vhd
+Z16 FE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 9.4 - Modeling Counters in VHDL/Counter_16bit_UpDown_TB.vhd
+l0
+L5
+V;52;WV?lSlFOSkezBTIJV3
+!s100 8nX^BUGS14om^U1hU539f1
+R7
+32
+Z17 !s110 1456349887
+!i10b 1
+Z18 !s108 1456349887.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 9.4 - Modeling Counters in VHDL/Counter_16bit_UpDown_TB.vhd|
+Z20 !s107 E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 9.4 - Modeling Counters in VHDL/Counter_16bit_UpDown_TB.vhd|
+!i113 1
+R12
+R13
+Acounter_16bit_updown_tb_arch
+R1
+R2
+R3
+DEx4 work 23 counter_16bit_updown_tb 0 22 ;52;WV?lSlFOSkezBTIJV3
+l20
+L8
+VRVWLV:8YU`d]kcadWa02F1
+!s100 hPZ_ImYUYz^=K282la;NB2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13

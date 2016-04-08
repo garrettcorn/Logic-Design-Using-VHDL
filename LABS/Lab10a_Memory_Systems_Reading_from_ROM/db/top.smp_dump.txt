@@ -1,0 +1,7 @@
+
+State Machine - |top|current_state
+Name current_state.done current_state.clear_addr current_state.read_rom current_state.start 
+current_state.start 0 0 0 0 
+current_state.read_rom 0 0 1 1 
+current_state.clear_addr 0 1 0 1 
+current_state.done 1 0 0 1 

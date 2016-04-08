@@ -1,0 +1,32 @@
+Quartus Prime Archive log --	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/top_tmp_archive.qarlog
+
+Archive:	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/top_tmp_archive.qar
+Date:		Thu Apr 07 21:33:12 2016
+Quartus Prime		15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/Chain6.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/assignment_defaults.qdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/Chain1.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/Chain2.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/Chain3.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/Chain4.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/Chain5.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/bcd.vhd
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/char_decoder.vhd
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/clock_div_2ton.vhd
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/clock_div_prec.vhd
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/output_files/dflipflop.vhd
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/top.qpf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/top.qsf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/top.vhd
+	======= Total: 15 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Thu Apr 07 21:33:24 2016
+Source archive file:	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab9d_BCD_Counters_n_Precision_Clock_Div/top_tmp_archive.qar
+Archive was extracted into	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/
+		 - successfully.

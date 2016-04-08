@@ -1,0 +1,77 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_textio.all;
+
+library STD;
+use STD.textio.all;
+
+entity SystemL_TB is
+end entity;
+
+architecture SystemL_TB_arch of SystemL_TB is
+
+	component SystemL is
+		port	(ABCD	: in	std_logic_vector(3 downto 0);
+			 F	: out	std_logic);
+	end component;
+
+signal ABCD_TB 	: std_logic_vector(3 downto 0);
+signal F_TB	: std_logic;
+
+begin
+
+	DUT : SystemL port map (ABCD_TB, F_TB);
+
+	STIMULUS : process
+		
+		file Fin: TEXT open READ_MODE is "input_vectors.txt";
+
+		variable current_read_line 	: line;
+		variable current_read_field1	: std_logic_vector(3 downto 0);
+		variable output0		: line;
+		variable output1		: line;
+
+		begin
+			
+			while (not endfile(Fin)) loop
+				
+				readline(Fin, current_read_line);
+				read(current_read_line, current_read_field1);
+				
+				ABCD_TB <= current_read_field1; wait for 10ns;
+				
+				case ABCD_TB is 
+					when "0001" | "1001" | "1011" | "1101" => -- 0					
+						
+						if F_TB = '0' then
+							write(output0, string'("Input = "));
+							write(output0, ABCD_TB); 
+							write(output0, string'(" || output = 0 || output is correct --1"));
+							writeline(OUTPUT, output0);
+						else 
+							write(output1, string'("Input = "));
+							write(output1, ABCD_TB);
+							write(output1, string'(" || output = 1 || output is incorrect --2"));
+							writeline(OUTPUT, output1);
+						end if;
+
+					when others => -- 1						
+						
+						if F_TB = '1' then 
+							write(output1, string'("Input = "));
+							write(output1, ABCD_TB);
+							write(output1, string'(" || output = 1 || output is correct --4"));
+							writeline(OUTPUT, output1);
+						else 
+							write(output0, string'("Input = "));
+							write(output0, ABCD_TB);
+							write(output0, string'(" || output = 0 || output is incorrect --3"));
+							writeline(OUTPUT, output0);
+						end if;
+				end case;
+			end loop;
+			
+			wait;
+	end process;
+
+end architecture;

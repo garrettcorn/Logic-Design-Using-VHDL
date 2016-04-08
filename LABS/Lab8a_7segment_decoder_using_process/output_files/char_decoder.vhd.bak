@@ -1,0 +1,4 @@
+entity char_decoder is          
+	port (BIN_IN   : in  std_logic_vector (3 downto 0);                
+			HEX_OUT  : out std_logic_vector (6 downto 0));       
+end entity;

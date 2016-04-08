@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><span style="font-size: 14pt;"><strong>HW 12.1</strong></span><br />____________________________________________________________________________</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14pt;"><strong>12.1.5</strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"></span><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Design a VHDL model for an 8-bit Ripple Carry Adder (RCA) using a structural design approach.&nbsp; You will first create a half adder (half_adder.vhd) using concurrent signal assignments and logical operators.&nbsp; You will then create a full adder (full_adder.vhd) that consists of two half adder components and an OR gate.&nbsp; Finally, you create your top level adder (rca.vhd) by instantiating eight full adder components.&nbsp; You are going to model the ripple delay by inserting <strong>1ns of gate delay for the XOR, AND, and OR</strong> operators using a delayed signal assignment.&nbsp; The general topology and entity definition for your design are shown below. &nbsp;</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">You will need to create a test bench to verify your model by driving in a variety of values for A and B and checking that the sum and carry out of your RCA are correct.&nbsp; You should drive in different values every 30ns in order to give sufficient time for the signals to ripple through your adder. &nbsp;Use&nbsp;<strong>two nested for loops&nbsp;</strong>to&nbsp;create your test vectors. &nbsp;</span></p>
+<p><img src="HW_RCA_8bit.jpg" alt="" title="" width="582" height="241" /></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Deliverables: &nbsp;You are going to design and simulate your adder&nbsp;using ModelSim. &nbsp;You&nbsp;will upload all of your design files <span>(rca_8bit.vhd, <span>half_adder.vhd, full_adder.vhd</span>)</span>, your test bench (rca_8bit_TB.vhd), and your simulation waveform (waveform_12_1_5.jpg) to the&nbsp;DropBox.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=376974&amp;type=dropbox&amp;rcode=msu-1653027" target="_self">HW 12.1 DropBox</a></span></p>
+</body>
+</html>

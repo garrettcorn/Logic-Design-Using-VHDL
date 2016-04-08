@@ -1,0 +1,12 @@
+{ "Info" "0" "" "qar.tcl version #1" {  } {  } 0 0 "qar.tcl version #1" 0 0 "0" 0 0 1460092564244 ""}
+{ "Info" "0" "" "Including '-use_file_set basic' by default" {  } {  } 0 0 "Including '-use_file_set basic' by default" 0 0 "0" 0 0 1460092564828 ""}
+{ "Info" "0" "" "All project revisions will be stored in common archive top_tmp_archive.qar" {  } {  } 0 0 "All project revisions will be stored in common archive top_tmp_archive.qar" 0 0 "0" 0 0 1460092564828 ""}
+{ "Info" "0" "" "Initializing files for 'top' revision" {  } {  } 0 0 "Initializing files for 'top' revision" 0 0 "0" 0 0 1460092564963 ""}
+{ "Info" "0" "" "File Set 'Source control' contains:" { { "Info" "0" "" "Project source and settings files" {  } {  } 0 0 "Project source and settings files" 0 0 "0" 0 0 1460092564975 ""} { "Info" "0" "" "Automatically detected source files" {  } {  } 0 0 "Automatically detected source files" 0 0 "0" 0 0 1460092564975 ""}  } {  } 0 0 "File Set 'Source control' contains:" 0 0 "0" 0 0 1460092564975 ""}
+{ "Info" "0" "" "Archive will store files relative to the closest common parent directory" {  } {  } 0 0 "Archive will store files relative to the closest common parent directory" 0 0 "0" 0 0 1460092565307 ""}
+{ "Info" "IPRJ_ARC_TCL_TCL_USING_COMMON_DIR" "C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Laboratory_Experiment_12a_Unsigned_Binary_Adders/ " "Using common directory C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Laboratory_Experiment_12a_Unsigned_Binary_Adders/" {  } {  } 0 13213 "Using common directory %1!s!" 0 0 "Design Software" 0 -1 1460092565333 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1460092565452 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1460092565452 ""}
+{ "Info" "0" "" "Generated archive 'top_tmp_archive.qar'" {  } {  } 0 0 "Generated archive 'top_tmp_archive.qar'" 0 0 "0" 0 0 1460092565452 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1460092565452 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "0" 0 0 1460092565453 ""}

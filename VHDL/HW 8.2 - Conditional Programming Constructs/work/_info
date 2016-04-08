@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera_lite/15.1
+Esystemi
+Z0 w1455911263
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/01_if_then_statement
+Z4 8C:\Users\Garrett\Google Drive\School\EELE\EELE367\VHDL\01_if_then_statement\SystemI.vhd
+Z5 FC:\Users\Garrett\Google Drive\School\EELE\EELE367\VHDL\01_if_then_statement\SystemI.vhd
+l0
+L4
+VkdTL4ISeFDQH^4j1UHV:e2
+!s100 Y^a?k8_og;1012DdiaOz12
+Z6 OV;C;10.4b;61
+32
+Z7 !s110 1455911272
+!i10b 1
+Z8 !s108 1455911272.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Garrett\Google Drive\School\EELE\EELE367\VHDL\01_if_then_statement\SystemI.vhd|
+Z10 !s107 C:\Users\Garrett\Google Drive\School\EELE\EELE367\VHDL\01_if_then_statement\SystemI.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Asystemi_arch
+R1
+R2
+Z13 DEx4 work 7 systemi 0 22 kdTL4ISeFDQH^4j1UHV:e2
+l11
+L9
+VbiQLCgmmUKMlgWoF_ReQD3
+!s100 b>fK3kbS:d7iGfD`?@KeY3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esystemi_tb
+Z14 w1454356001
+R1
+R2
+R3
+Z15 8C:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/01_if_then_statement/SystemI_TB.vhd
+Z16 FC:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/01_if_then_statement/SystemI_TB.vhd
+l0
+L4
+VVj0]I<PE3[i6bc4bcCGon3
+!s100 a[_DOXL2EPUko8LUA1o9=3
+R6
+32
+Z17 !s110 1455910159
+!i10b 1
+Z18 !s108 1455910158.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/01_if_then_statement/SystemI_TB.vhd|
+Z20 !s107 C:/Users/Garrett/Google Drive/School/EELE/EELE367/VHDL/01_if_then_statement/SystemI_TB.vhd|
+!i113 1
+R11
+R12
+Asystemi_tb_arch
+R1
+R2
+DEx4 work 10 systemi_tb 0 22 Vj0]I<PE3[i6bc4bcCGon3
+l17
+L7
+V5PD[Z_Y4QdGj45:ZbaUb63
+!s100 ET:HJB6kh0LfjDPVoon7z0
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12

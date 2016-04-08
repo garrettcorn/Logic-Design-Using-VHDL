@@ -1,0 +1,44 @@
+{C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ModelSim/rom_16x4_sync.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ModelSim/rom_16x4_sync.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rom_16x4_sync
+-- Compiling architecture rom_16x4_sync_arch of rom_16x4_sync
+
+} {} {}} {C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ModelSim/top_TB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ModelSim/top_TB.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_TB
+-- Compiling architecture top_TB_arch of top_TB
+
+} {} {}} {C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ModelSim/char_decode.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Garrett\Google Drive\School\EELE\EELE367\LABS\Lab10a_Memory_Systems_Reading_from_ROM\ModelSim\char_decode.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity char_decoder
+-- Compiling architecture char_decoder_arch of char_decoder
+
+} {} {}} {C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ModelSim/top.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ModelSim/top.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top
+-- Compiling architecture top_arch of top
+
+} {} {}} {C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ModelSim/clock_div_prec.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab10a_Memory_Systems_Reading_from_ROM/ModelSim/clock_div_prec.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clock_div_prec
+-- Compiling architecture clock_div_prec_arch of clock_div_prec
+
+} {} {}}

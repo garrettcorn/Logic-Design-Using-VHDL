@@ -1,0 +1,341 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK'
+Slack : -6.433
+TNS   : -136.940
+
+Type  : Slow 1100mV 85C Model Setup 'BCD:BCD1|CarryBit_out'
+Slack : -4.274
+TNS   : -167.750
+
+Type  : Slow 1100mV 85C Model Setup 'BCD:BCD2|CarryBit_out'
+Slack : -4.197
+TNS   : -168.924
+
+Type  : Slow 1100mV 85C Model Setup 'BCD:BCD3|CarryBit_out'
+Slack : -4.102
+TNS   : -171.160
+
+Type  : Slow 1100mV 85C Model Setup 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : -4.061
+TNS   : -179.025
+
+Type  : Slow 1100mV 85C Model Setup 'BCD:BCD4|CarryBit_out'
+Slack : -4.010
+TNS   : -146.324
+
+Type  : Slow 1100mV 85C Model Setup 'BCD:BCD0|CarryBit_out'
+Slack : -3.885
+TNS   : -157.470
+
+Type  : Slow 1100mV 85C Model Hold 'BCD:BCD2|CarryBit_out'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'BCD:BCD0|CarryBit_out'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'BCD:BCD1|CarryBit_out'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'BCD:BCD4|CarryBit_out'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'BCD:BCD3|CarryBit_out'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'BCD:BCD0|CarryBit_out'
+Slack : -0.538
+TNS   : -41.655
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : -0.538
+TNS   : -38.113
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'BCD:BCD3|CarryBit_out'
+Slack : -0.538
+TNS   : -34.868
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'BCD:BCD1|CarryBit_out'
+Slack : -0.538
+TNS   : -33.988
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'BCD:BCD2|CarryBit_out'
+Slack : -0.538
+TNS   : -33.710
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'BCD:BCD4|CarryBit_out'
+Slack : -0.538
+TNS   : -29.367
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.538
+TNS   : -25.588
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK'
+Slack : -6.647
+TNS   : -137.257
+
+Type  : Slow 1100mV 0C Model Setup 'BCD:BCD1|CarryBit_out'
+Slack : -4.336
+TNS   : -171.315
+
+Type  : Slow 1100mV 0C Model Setup 'BCD:BCD2|CarryBit_out'
+Slack : -4.155
+TNS   : -167.434
+
+Type  : Slow 1100mV 0C Model Setup 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : -4.134
+TNS   : -182.430
+
+Type  : Slow 1100mV 0C Model Setup 'BCD:BCD4|CarryBit_out'
+Slack : -4.083
+TNS   : -149.501
+
+Type  : Slow 1100mV 0C Model Setup 'BCD:BCD3|CarryBit_out'
+Slack : -4.033
+TNS   : -169.573
+
+Type  : Slow 1100mV 0C Model Setup 'BCD:BCD0|CarryBit_out'
+Slack : -3.813
+TNS   : -154.981
+
+Type  : Slow 1100mV 0C Model Hold 'BCD:BCD0|CarryBit_out'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'BCD:BCD2|CarryBit_out'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'BCD:BCD1|CarryBit_out'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'BCD:BCD4|CarryBit_out'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'BCD:BCD3|CarryBit_out'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'BCD:BCD0|CarryBit_out'
+Slack : -0.538
+TNS   : -41.593
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : -0.538
+TNS   : -38.187
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'BCD:BCD3|CarryBit_out'
+Slack : -0.538
+TNS   : -34.501
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'BCD:BCD1|CarryBit_out'
+Slack : -0.538
+TNS   : -33.616
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'BCD:BCD2|CarryBit_out'
+Slack : -0.538
+TNS   : -33.219
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'BCD:BCD4|CarryBit_out'
+Slack : -0.538
+TNS   : -29.275
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.538
+TNS   : -26.025
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK'
+Slack : -3.371
+TNS   : -52.851
+
+Type  : Fast 1100mV 85C Model Setup 'BCD:BCD0|CarryBit_out'
+Slack : -1.753
+TNS   : -62.497
+
+Type  : Fast 1100mV 85C Model Setup 'BCD:BCD1|CarryBit_out'
+Slack : -1.739
+TNS   : -65.211
+
+Type  : Fast 1100mV 85C Model Setup 'BCD:BCD2|CarryBit_out'
+Slack : -1.695
+TNS   : -67.227
+
+Type  : Fast 1100mV 85C Model Setup 'BCD:BCD3|CarryBit_out'
+Slack : -1.613
+TNS   : -66.616
+
+Type  : Fast 1100mV 85C Model Setup 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : -1.580
+TNS   : -70.051
+
+Type  : Fast 1100mV 85C Model Setup 'BCD:BCD4|CarryBit_out'
+Slack : -1.557
+TNS   : -55.989
+
+Type  : Fast 1100mV 85C Model Hold 'BCD:BCD2|CarryBit_out'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'BCD:BCD0|CarryBit_out'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'BCD:BCD1|CarryBit_out'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'BCD:BCD4|CarryBit_out'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'BCD:BCD3|CarryBit_out'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.424
+TNS   : -3.517
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'BCD:BCD0|CarryBit_out'
+Slack : -0.056
+TNS   : -1.899
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : -0.016
+TNS   : -0.359
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'BCD:BCD2|CarryBit_out'
+Slack : 0.047
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'BCD:BCD1|CarryBit_out'
+Slack : 0.056
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'BCD:BCD3|CarryBit_out'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'BCD:BCD4|CarryBit_out'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK'
+Slack : -3.052
+TNS   : -46.370
+
+Type  : Fast 1100mV 0C Model Setup 'BCD:BCD1|CarryBit_out'
+Slack : -1.558
+TNS   : -58.707
+
+Type  : Fast 1100mV 0C Model Setup 'BCD:BCD0|CarryBit_out'
+Slack : -1.529
+TNS   : -54.328
+
+Type  : Fast 1100mV 0C Model Setup 'BCD:BCD2|CarryBit_out'
+Slack : -1.501
+TNS   : -59.552
+
+Type  : Fast 1100mV 0C Model Setup 'BCD:BCD3|CarryBit_out'
+Slack : -1.427
+TNS   : -58.989
+
+Type  : Fast 1100mV 0C Model Setup 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : -1.425
+TNS   : -63.213
+
+Type  : Fast 1100mV 0C Model Setup 'BCD:BCD4|CarryBit_out'
+Slack : -1.405
+TNS   : -50.497
+
+Type  : Fast 1100mV 0C Model Hold 'BCD:BCD2|CarryBit_out'
+Slack : 0.122
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'BCD:BCD0|CarryBit_out'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'BCD:BCD1|CarryBit_out'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'BCD:BCD3|CarryBit_out'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'BCD:BCD4|CarryBit_out'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.405
+TNS   : -3.538
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'BCD:BCD0|CarryBit_out'
+Slack : -0.015
+TNS   : -0.210
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_div_prec:clock_div_prec0|clock_temp'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'BCD:BCD2|CarryBit_out'
+Slack : 0.071
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'BCD:BCD1|CarryBit_out'
+Slack : 0.072
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'BCD:BCD3|CarryBit_out'
+Slack : 0.088
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'BCD:BCD4|CarryBit_out'
+Slack : 0.117
+TNS   : 0.000
+
+------------------------------------------------------------

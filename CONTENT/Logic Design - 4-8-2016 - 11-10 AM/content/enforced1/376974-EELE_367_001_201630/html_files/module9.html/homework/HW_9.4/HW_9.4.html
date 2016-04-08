@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><span style="font-size: 12pt;">HW 9.4 - Modeling Counters in VHDL</span></strong><br />____________________________________________________________________________</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>9.4.10</strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"></span><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Design a VHDL behavioral model for a 16-bit, binary up/down counter using a single process. The block diagram for the entity definition is shown in figure 9.9. When Up=1, the counter will increment. When Up=0, the counter will decrement. In your model, declare Count_Out to be of type <span style="text-decoration: underline;"><strong>std_logic_vector</strong></span> and implement the internal counter functionality with a signal of type <span style="text-decoration: underline;"><strong>integer</strong></span>. Simulate your model using the test bench provided to verify its proper operation by observing the simulation waveforms.</span></p>
+<p><img src="fig_HW_16bit_Counter_UpDown.jpg" alt="" title="" width="239" height="163" /></p>
+<p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Figure 9.9</span></strong></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Deliverables: &nbsp;You are going to design and simulate your FSM using ModelSim. &nbsp;You will upload your VHDL file (counter_16bit_UpDown.vhd) and a screenshot of your simulation waveform (waveform_9_4_10.jpg) to the DropBox. &nbsp;There is a test bench provided. &nbsp;The test bench will allow your counter to count up to 5 (Up=1) and then make it count down for 10 counts to observe the roll-over from 0 to 65.535. &nbsp;It will then count up for the remaining time to allow you to check the roll-over from 65,535 to 0. &nbsp;You should simulate your counter long enough to see both roll-overs to verify its functionality. &nbsp;For your simulation waveform screenshot, just zoom in on the first ~20 counts to show the decrementing roll-over. &nbsp;Also, display your counter value in UNSIGNED in ModelSim. &nbsp;</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="Counter_16bit_UpDown_TB.vhd" target="_self">Counter_16bit_UpDown_TB.vhd</a>&nbsp;(Right Click and Save Link As to download)</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=376974&amp;type=dropbox&amp;rcode=msu-1653023" target="_self">HW 9.4 DropBox</a></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">FYI, your simulation waveform should look like this:</span></p>
+<p><img src="Counter_16bit_UpDown_Simulation_Waveform.jpg" alt="" title="" width="1217" height="173" /></p>
+<p></p>
+<p><br /><a href="fsm1_behavioral_TB.vhd" target="_self" style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"></a></p>
+</body>
+</html>

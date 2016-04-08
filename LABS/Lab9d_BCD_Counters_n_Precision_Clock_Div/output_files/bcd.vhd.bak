@@ -1,0 +1,9 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity BCD is         
+	port (Clock		 : in  std_logic;                
+			Reset     : in  std_logic;
+			data		 : in  std_logic_vector (3 downto 0);
+			CarryBit  : out std_logic);       
+end entity;

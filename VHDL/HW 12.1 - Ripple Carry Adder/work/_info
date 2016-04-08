@@ -1,0 +1,168 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/altera_lite/15.1
+Efull_adder
+Z0 w1459428715
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder
+Z4 8E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/full_adder.vhd
+Z5 FE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/full_adder.vhd
+l0
+L4
+VMA[UUbJS]l4XfoUPn2mz12
+!s100 @D=2:RD=@^o_9E3bS6VDF0
+Z6 OV;C;10.4b;61
+32
+Z7 !s110 1459428733
+!i10b 1
+Z8 !s108 1459428733.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/full_adder.vhd|
+Z10 !s107 E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/full_adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Afull_adder_arch
+R1
+R2
+DEx4 work 10 full_adder 0 22 MA[UUbJS]l4XfoUPn2mz12
+l18
+L9
+VUWF3@LR>Y1d1CX^TneZEf1
+!s100 gUBLZ_gdmZ>N=he[jXzcZ2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+Z13 w1459428691
+R1
+R2
+R3
+Z14 8E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/half_adder.vhd
+Z15 FE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/half_adder.vhd
+l0
+L4
+VZZ36K<X8XjYDClRbJOHm=0
+!s100 Uk93>hC`A[Hm?mb=1eEkb2
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/half_adder.vhd|
+Z17 !s107 E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/half_adder.vhd|
+!i113 1
+R11
+R12
+Ahalf_adder_arch
+R1
+R2
+Z18 DEx4 work 10 half_adder 0 22 ZZ36K<X8XjYDClRbJOHm=0
+l11
+L9
+VH^Q9>HP[7Y`PWUI@]N6O81
+!s100 k?1;A]d6T6H>9Hn?d7KL`0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Erca
+Z19 w1459427971
+R1
+R2
+R3
+Z20 8E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/rca.vhd
+Z21 FE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/rca.vhd
+l0
+L4
+V_L`>4J[Si@nTRz=FJ^3Qc0
+!s100 K1[;X4`YgJ^]8fR@FZ@n_3
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/rca.vhd|
+Z23 !s107 E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/rca.vhd|
+!i113 1
+R11
+R12
+Arca_arch
+R1
+R2
+DEx4 work 3 rca 0 22 _L`>4J[Si@nTRz=FJ^3Qc0
+l19
+L10
+V5CA^aN?g9LjcZ1`n@WP3[2
+!s100 jnR?A_d3ESFFF2Qfce3KU1
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Erca_tb
+Z24 w1459428427
+Z25 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z26 8E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/rca_tb.vhd
+Z27 FE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/rca_tb.vhd
+l0
+L5
+VnlNfN=8@_mPW8NHZdKK9m0
+!s100 mQ@3<M=T`?ClcCGGc:U5n2
+R6
+32
+R7
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/rca_tb.vhd|
+Z29 !s107 E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.1 - Ripple Carry Adder/rca_tb.vhd|
+!i113 1
+R11
+R12
+Arca_tb_arch
+R25
+R1
+R2
+DEx4 work 6 rca_tb 0 22 nlNfN=8@_mPW8NHZdKK9m0
+l19
+L8
+VlDT^ZdK8ASdLdZK9Vm_bi1
+!s100 :k0:44;1lQzDO?^RYNIPO0
+R6
+32
+R7
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12

@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/altera_lite/15.1
+Erom_16x8_sync
+Z0 w1457747086
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 10.4 - Modeling Memory
+Z5 8E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 10.4 - Modeling Memory/rom_16x8_sync.vhd
+Z6 FE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 10.4 - Modeling Memory/rom_16x8_sync.vhd
+l0
+L5
+Vd>6Gk;_5aBRg=k@SWXe3=2
+!s100 ^8>eFc19o2bo0WYGSG^XJ0
+Z7 OV;C;10.4b;61
+32
+Z8 !s110 1457747089
+!i10b 1
+Z9 !s108 1457747089.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 10.4 - Modeling Memory/rom_16x8_sync.vhd|
+Z11 !s107 E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 10.4 - Modeling Memory/rom_16x8_sync.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Arom_16x8_sync_arch
+R1
+R2
+R3
+Z14 DEx4 work 13 rom_16x8_sync 0 22 d>6Gk;_5aBRg=k@SWXe3=2
+l34
+L11
+V[OaP2?^?e?LHP3QPMCCLN1
+!s100 lkN4``Ko5E2Pf1dR[moiR0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Erom_16x8_sync_tb
+Z15 w1457724119
+R2
+R3
+R4
+Z16 8E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 10.4 - Modeling Memory/rom_16x8_sync_TB.vhd
+Z17 FE:/GoogleDrive/School/EELE/EELE367/VHDL/HW 10.4 - Modeling Memory/rom_16x8_sync_TB.vhd
+l0
+L4
+V46;?hcPog7?_<hjJ7FHh:3
+!s100 DCGZ51^oIHA01g_jmQF>=0
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 10.4 - Modeling Memory/rom_16x8_sync_TB.vhd|
+Z19 !s107 E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 10.4 - Modeling Memory/rom_16x8_sync_TB.vhd|
+!i113 1
+R12
+R13
+Arom_16x8_sync_tb_arch
+R2
+R3
+DEx4 work 16 rom_16x8_sync_tb 0 22 46;?hcPog7?_<hjJ7FHh:3
+l19
+L7
+VUSi3>gB7O1CT`K9K6giV41
+!s100 ML?<keSg^a<j;;Z2XJJXf2
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13

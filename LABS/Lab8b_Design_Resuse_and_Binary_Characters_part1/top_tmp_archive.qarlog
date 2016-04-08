@@ -1,0 +1,26 @@
+Quartus Prime Archive log --	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/top_tmp_archive.qarlog
+
+Archive:	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/top_tmp_archive.qar
+Date:		Wed Feb 03 19:01:57 2016
+Quartus Prime		15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/assignment_defaults.qdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/output_files/Chain2.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/output_files/Chain3.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/output_files/Chain4.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/output_files/Chain5.cdf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/output_files/char_decoder.vhd
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/top.qpf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/top.qsf
+C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/top.vhd
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Feb 03 19:02:07 2016
+Source archive file:	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part1/top_tmp_archive.qar
+Archive was extracted into	C:/Users/Garrett/Google Drive/School/EELE/EELE367/LABS/Lab8b_Design_Resuse_and_Binary_Characters_part2_1/
+		 - successfully.

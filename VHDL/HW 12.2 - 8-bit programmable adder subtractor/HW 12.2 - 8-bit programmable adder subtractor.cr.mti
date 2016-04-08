@@ -1,0 +1,35 @@
+{E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.2 - 8-bit programmable adder subtractor/add_n_sub_8bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.2 - 8-bit programmable adder subtractor/add_n_sub_8bit.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity add_n_sub_8bit
+-- Compiling architecture add_n_sub_8bit_arch of add_n_sub_8bit
+
+} {} {}} {E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.2 - 8-bit programmable adder subtractor/half_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.2 - 8-bit programmable adder subtractor/half_adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity half_adder
+-- Compiling architecture half_adder_arch of half_adder
+
+} {} {}} {E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.2 - 8-bit programmable adder subtractor/full_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.2 - 8-bit programmable adder subtractor/full_adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture full_adder_arch of full_adder
+
+} {} {}} {E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.2 - 8-bit programmable adder subtractor/add_n_sub_8bit_tb.vhd} {2 {vcom -work work -2002 -explicit -stats=none {E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.2 - 8-bit programmable adder subtractor/add_n_sub_8bit_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity add_n_sub_8bit_tb
+-- Compiling architecture add_n_sub_8bit_tb_arch of add_n_sub_8bit_tb
+** Warning: E:/GoogleDrive/School/EELE/EELE367/VHDL/HW 12.2 - 8-bit programmable adder subtractor/add_n_sub_8bit_tb.vhd(10): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}
