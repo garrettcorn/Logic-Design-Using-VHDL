@@ -10,12 +10,6 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 ** Error (suppressible): E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/cpu.vhd(1): (vcom-1491) Empty source files.
 
 
-} {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/contro_unit.vhd} {0 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/contro_unit.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
-** Error (suppressible): E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/contro_unit.vhd(1): (vcom-1491) Empty source files.
-
-
 } {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd} {0 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD

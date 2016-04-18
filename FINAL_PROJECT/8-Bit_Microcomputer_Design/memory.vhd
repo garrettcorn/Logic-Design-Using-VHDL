@@ -9,7 +9,8 @@
 --
 ----------------------------------------------------------------------
 library IEEE;
-use IEEE.std_logic_1164.all; 
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all; 
 
 entity memory is
 	port   (address		: in   std_logic_vector (7 downto 0);
@@ -91,54 +92,54 @@ architecture memory_arch of memory is
       Output : process (clock, reset)
         begin
 			if (reset = '0') then
-				port_out_00 <- x"00";
-				port_out_01 <- x"00";
-				port_out_02 <- x"00";
-				port_out_03 <- x"00";
-				port_out_04 <- x"00";
-				port_out_05 <- x"00";
-				port_out_06 <- x"00";
-				port_out_07 <- x"00";
-				port_out_08 <- x"00";
-				port_out_09 <- x"00";
-				port_out_10 <- x"00";
-				port_out_11 <- x"00";
-				port_out_12 <- x"00";
-				port_out_13 <- x"00";
-				port_out_14 <- x"00";
-				port_out_15 <- x"00";				
+				port_out_00 <= x"00";
+				port_out_01 <= x"00";
+				port_out_02 <= x"00";
+				port_out_03 <= x"00";
+				port_out_04 <= x"00";
+				port_out_05 <= x"00";
+				port_out_06 <= x"00";
+				port_out_07 <= x"00";
+				port_out_08 <= x"00";
+				port_out_09 <= x"00";
+				port_out_10 <= x"00";
+				port_out_11 <= x"00";
+				port_out_12 <= x"00";
+				port_out_13 <= x"00";
+				port_out_14 <= x"00";
+				port_out_15 <= x"00";				
 			elsif (rising_edge(clock)) then
-				if (address = "E0" and write = '1') then
+				if (address = x"E0" and write = '1') then
 					port_out_00 <= data_in;
-				elsif (address = "E1" and write = '1') then
+				elsif (address = x"E1" and write = '1') then
 					port_out_01 <= data_in;
-				elsif (address = "E2" and write = '1') then
+				elsif (address = x"E2" and write = '1') then
 					port_out_02 <= data_in;
-				elsif (address = "E3" and write = '1') then
+				elsif (address = x"E3" and write = '1') then
 					port_out_03 <= data_in;
-				elsif (address = "E4" and write = '1') then
+				elsif (address = x"E4" and write = '1') then
 					port_out_04 <= data_in;
-				elsif (address = "E5" and write = '1') then
+				elsif (address = x"E5" and write = '1') then
 					port_out_05 <= data_in;
-				elsif (address = "E6" and write = '1') then
+				elsif (address = x"E6" and write = '1') then
 					port_out_06 <= data_in;
-				elsif (address = "E7" and write = '1') then
+				elsif (address = x"E7" and write = '1') then
 					port_out_07 <= data_in;
-				elsif (address = "E8" and write = '1') then
+				elsif (address = x"E8" and write = '1') then
 					port_out_08 <= data_in;
-				elsif (address = "E9" and write = '1') then
+				elsif (address = x"E9" and write = '1') then
 					port_out_09 <= data_in;
-				elsif (address = "EA" and write = '1') then
+				elsif (address = x"EA" and write = '1') then
 					port_out_10 <= data_in;
-				elsif (address = "EB" and write = '1') then
+				elsif (address = x"EB" and write = '1') then
 					port_out_11 <= data_in;
-				elsif (address = "EC" and write = '1') then
+				elsif (address = x"EC" and write = '1') then
 					port_out_12 <= data_in;
-				elsif (address = "ED" and write = '1') then
+				elsif (address = x"ED" and write = '1') then
 					port_out_13 <= data_in;
-				elsif (address = "EE" and write = '1') then
+				elsif (address = x"EE" and write = '1') then
 					port_out_14 <= data_in;
-				elsif (address = "EF" and write = '1') then
+				elsif (address = x"EF" and write = '1') then
 					port_out_15 <= data_in;
 				end if;
 			end if;

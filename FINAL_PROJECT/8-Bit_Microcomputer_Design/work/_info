@@ -9,62 +9,199 @@ z2
 cModel Technology
 dE:/altera_lite/15.1
 Ecomputer
-w1460932187
-Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z2 dE:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design
-8E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd
-FE:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd
+Z0 w1461004049
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dE:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design
+Z4 8E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd
+Z5 FE:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd
 l0
-L18
-Vc^g:Z69n^kScj8]3ZZVXo0
-!s100 [@[;1]14AW38Td5PdlSHe3
-Z3 OV;C;10.4b;61
+L14
+VKbGjd^`O8WDoLdloS?2<82
+!s100 TNJ>LlS`eTJ_lI>M^<PT11
+Z6 OV;C;10.4b;61
 32
-!s110 1460950023
+Z7 !s110 1461004057
 !i10b 1
-!s108 1460950023.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd|
-!s107 E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd|
+Z8 !s108 1461004057.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd|
+Z10 !s107 E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd|
 !i113 1
-Z4 o-work work -2002 -explicit
-Z5 tExplicit 1
-Ecomputer_tb
-Z6 w1460878226
-R0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Acomputer_arch
 R1
 R2
-Z7 8E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer_TB.vhd
-Z8 FE:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer_TB.vhd
+DEx4 work 8 computer 0 22 KbGjd^`O8WDoLdloS?2<82
+l110
+L51
+V2CgJlk>;jRhMDd`GcZkYO0
+!s100 8KOY_5O2<PeOOYD6][^Po2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecomputer_tb
+Z13 w1461003764
+R1
+R2
+R3
+Z14 8E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer_TB.vhd
+Z15 FE:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer_TB.vhd
 l0
 L18
 V:6Mfb8BIbMnB;11j7N09c0
 !s100 5JWm2o>BLD@M3B8LP1A^k2
-R3
+R6
 32
-Z9 !s110 1460950013
+Z16 !s110 1461004066
 !i10b 1
-Z10 !s108 1460950013.000000
-Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer_TB.vhd|
-Z12 !s107 E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer_TB.vhd|
+Z17 !s108 1461004066.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer_TB.vhd|
+Z19 !s107 E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer_TB.vhd|
 !i113 1
-R4
-R5
+R11
+R12
 Acomputer_tb_arch
-R0
 R1
+R2
 DEx4 work 11 computer_tb 0 22 :6Mfb8BIbMnB;11j7N09c0
 l101
 L21
 VHh4SJNV`L6SKY_O75bzDz0
 !s100 hY=E[83gZ;z4nVVdYjhAJ2
-R3
+R6
 32
-R9
+R16
 !i10b 1
-R10
+R17
+R18
+R19
+!i113 1
 R11
 R12
+Ememory
+Z20 w1461004306
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z22 8E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd
+Z23 FE:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd
+l0
+L15
+VWDIUMV0@d3LRfemcH3`k[1
+!s100 [`oR46Q4]UK^iAza:]M6O1
+R6
+32
+Z24 !s110 1461004311
+!i10b 1
+Z25 !s108 1461004311.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd|
+Z27 !s107 E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd|
 !i113 1
-R4
-R5
+R11
+R12
+Amemory_arch
+R21
+R1
+R2
+DEx4 work 6 memory 0 22 WDIUMV0@d3LRfemcH3`k[1
+l78
+L56
+VeAV5ib[NE791T1:Gzin[F0
+!s100 T>J1lX@]NaH^Q?17cn:Zz0
+R6
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R11
+R12
+Erom_128x8_sync
+Z28 w1461003758
+R1
+R2
+R3
+Z29 8E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rom_128x8_sync.vhd
+Z30 FE:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rom_128x8_sync.vhd
+l0
+L14
+VQ[4HC[>X2QkhG>z^G>^FK3
+!s100 GK6H:BLUE_k2Q3O<^nD]J1
+R6
+32
+Z31 !s110 1461004320
+!i10b 1
+Z32 !s108 1461004320.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rom_128x8_sync.vhd|
+Z34 !s107 E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rom_128x8_sync.vhd|
+!i113 1
+R11
+R12
+Arom_128x8_sync_arch
+R1
+R2
+DEx4 work 14 rom_128x8_sync 0 22 Q[4HC[>X2QkhG>z^G>^FK3
+l27
+L20
+VBSjLTWXYIVSDMNY;?eU_V0
+!s100 Qi>l>fZ[C4Gig[`6U2Dk03
+R6
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12
+Erw_96x8_sync
+Z35 w1461003759
+R1
+R2
+R3
+Z36 8E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rw_96x8_sync.vhd
+Z37 FE:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rw_96x8_sync.vhd
+l0
+L14
+V0@@L]Iba@i77NXZlQb[CM0
+!s100 aTN:[[P<>JcVjCbUQD5Wn3
+R6
+32
+Z38 !s110 1461004323
+!i10b 1
+Z39 !s108 1461004323.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rw_96x8_sync.vhd|
+Z41 !s107 E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rw_96x8_sync.vhd|
+!i113 1
+R11
+R12
+Arw_96x8_sync_arch
+R1
+R2
+DEx4 work 12 rw_96x8_sync 0 22 0@@L]Iba@i77NXZlQb[CM0
+l30
+L22
+V2oOoN`>^@1ONOW]Mb`Q[o3
+!s100 iScjK;WFB=1`>`ZG7z]Cd2
+R6
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R11
+R12

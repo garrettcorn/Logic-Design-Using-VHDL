@@ -54,8 +54,8 @@ architecture computer_arch of computer is
 
   component cpu
     port   (address		: out std_logic_vector (7 downto 0);
-			write		: out std_logic;
-			to_memory, 	: in  std_logic_vector (7 downto 0);
+			control		: out std_logic;
+			to_memory 	: in  std_logic_vector (7 downto 0);
 			from_memory	: out std_logic_vector (7 downto 0);
 			clock		: in  std_logic;
 			reset		: in  std_logic);
