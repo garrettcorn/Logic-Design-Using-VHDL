@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- File name   : ucat_TB.vhd
+-- File name   : computer_TB.vhd
 --
 -- Project     : 8-bit Microcomputer
 --
