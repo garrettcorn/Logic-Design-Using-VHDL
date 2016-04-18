@@ -55,7 +55,7 @@ architecture rom_128x8_sync_arch of rom_128x8_sync is
 								5		=>  x"00",
 								others 	=>  x"00");
 								
-	signal EN : std_logic;
+  signal EN : std_logic;
   
   begin
   
