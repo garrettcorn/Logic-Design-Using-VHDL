@@ -45,15 +45,63 @@ architecture data_path_arch of data_path is
 
  -- Signal Declaration
  
-    signal  A, B, alu_result : std_logic_vector (7 downto 0);
-	signal  alu_NZVC : std_logic_vector (3 downto 0);
+    signal  MAR, PC, A, B, alu_result, Bus1, Bus2 : std_logic_vector (7 downto 0);
+	signal  NZVC : std_logic_vector (3 downto 0);
 
   begin
-      alu_0 : alu
+    alu_0 : alu
 		port map   (A,
 					B,
 					ALU_Sel,
-					alu_NZVC,
+					NZVC,
 					alu_result);
-
+		
+	
+	MUX_BUS1 : process (Bus1_Sel, PC, A, B)
+		begin
+			case (Bus1_Sel) is
+				when "00"	=> Bus1 <= PC;
+				when "01"	=> Bus1 <= A;
+				when "10"	=> Bus1 <= B;
+				when others	=> Bus1 <= x"00";
+			end case;
+	end process;
+	
+	MUX_BUS2 : process (Bus2_Sel, alu_result, Bus1, from_memory)
+		begin
+			case (Bus2_Sel) is
+				when "00"	=> Bus2 <= alu_result;
+				when "01"	=> Bus2 <= Bus1;
+				when "10"	=> Bus2 <= from_memory;
+				when others	=> Bus2 <= x"00";
+			end case;
+	end process;
+	
+	address		<= MAR;
+	to_memory	<= Bus1;
+	
+	INSTRUCTION_REGISTER : process (clock, reset)
+		begin
+			if (reset = '0') then
+				IR <= x"00";
+			elsif (rising_edge(clock)) then
+				if (IR_Load = '1') then
+					IR <= Bus2;
+				end if;
+			end if;
+	end process;
+	
+	MEMORY_ADDRESS_REGISTER : process (clock, reset)
+		begin
+			if (reset = '0') then
+				MAR <= x"00";
+			elsif (rising_edge(clock)) then
+				if (MAR_Load = '1') then
+					MAR <= Bus2;
+				end if;
+			end if;
+	end process;
+	
+	
+	
 end architecture;

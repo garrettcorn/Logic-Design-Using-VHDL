@@ -71,7 +71,7 @@ architecture cpu_arch of cpu is
 	signal  IR_Load, MAR_Load, PC_Load, PC_Inc, A_Load, B_Load, CCR_Load	: std_logic;
 
   begin
-      control_unit_0 : control_unit
+	control_unit_0 : control_unit
         port map   (IR_Load,
 					IR,
 					MAR_Load,
@@ -88,7 +88,7 @@ architecture cpu_arch of cpu is
 					clock,
 					reset);
 					
-	  data_path_0 : data_path
+	data_path_0 : data_path
 		port map   (IR_Load,
 					IR,
 					MAR_Load,
@@ -106,5 +106,5 @@ architecture cpu_arch of cpu is
 					from_memory,
 					clock,
 					reset);
-
+	
 end architecture;

@@ -10,6 +10,7 @@
 ----------------------------------------------------------------------
 library IEEE;
 use IEEE.std_logic_1164.all; 
+use IEEE.numeric_std.all;
 
 entity rw_96x8_sync is
 	port   (address		: in   std_logic_vector (7 downto 0);
