@@ -48,18 +48,15 @@ architecture data_path_arch of data_path is
  
     signal  MAR, PC, A, B, alu_result, Bus1, Bus2 : std_logic_vector (7 downto 0);
 	signal  NZVC : std_logic_vector (3 downto 0);
-	signal PC_uns : unsigned (7 downto 0);
+	signal  PC_uns : unsigned (7 downto 0);
 	
 
   begin
-    alu_0 : alu
-		port map   (A,
-					B,
-					ALU_Sel,
-					NZVC,
-					alu_result);
-		
-	
+    alu_0 : alu port map   (A, B, ALU_Sel, NZVC, alu_result);		
+
+-------------------------------------------------------------------------------
+-- MUX_BUS1
+-------------------------------------------------------------------------------
 	MUX_BUS1 : process (Bus1_Sel, PC, A, B)
 		begin
 			case (Bus1_Sel) is
@@ -69,7 +66,11 @@ architecture data_path_arch of data_path is
 				when others	=> Bus1 <= x"00";
 			end case;
 	end process;
-	
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-- MUX_BUS2
+-------------------------------------------------------------------------------
 	MUX_BUS2 : process (Bus2_Sel, alu_result, Bus1, from_memory)
 		begin
 			case (Bus2_Sel) is
@@ -82,7 +83,11 @@ architecture data_path_arch of data_path is
 	
 	address		<= MAR;
 	to_memory	<= Bus1;
-	
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-- INSTRUCTION_REGISTER
+-------------------------------------------------------------------------------
 	INSTRUCTION_REGISTER : process (clock, reset)
 		begin
 			if (reset = '0') then
@@ -93,7 +98,11 @@ architecture data_path_arch of data_path is
 				end if;
 			end if;
 	end process;
+-------------------------------------------------------------------------------
 	
+-------------------------------------------------------------------------------
+-- MEMORY_ADDRESS_REGISTER
+-------------------------------------------------------------------------------
 	MEMORY_ADDRESS_REGISTER : process (clock, reset)
 		begin
 			if (reset = '0') then
@@ -104,7 +113,11 @@ architecture data_path_arch of data_path is
 				end if;
 			end if;
 	end process;
-	
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-- PROGRAM_COUNTER
+-------------------------------------------------------------------------------
 	PROGRAM_COUNTER : process (clock, reset)
 		begin
 			if (reset = '0') then
@@ -118,6 +131,52 @@ architecture data_path_arch of data_path is
 			end if;
 	end process;
 	
-	PC <= std_logic_vector(PC_uns);
+	PC <= std_logic_vector(PC_uns);	
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-- A_REGISTER
+-------------------------------------------------------------------------------
+	A_REGISTER : process (clock, reset)
+		begin
+			if (reset = '0') then
+				A <= x"00";
+			elsif (rising_edge(clock)) then
+				if (A_Load = '1') then
+					A <= Bus2;
+				end if;
+			end if;
+	end process;
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-- B_REGISTER
+-------------------------------------------------------------------------------
+	B_REGISTER : process (clock, reset)
+		begin
+			if (reset = '0') then
+				B <= x"00";
+			elsif (rising_edge(clock)) then
+				if (B_Load = '1') then
+					B <= Bus2;
+				end if;
+			end if;
+	end process;
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-- CONDITION_CODE_REGISTER
+-------------------------------------------------------------------------------
+	CONDITION_CODE_REGISTER : process (clock, reset)
+		begin
+			if (reset = '0') then
+				CCR_Result <= x"0";
+			elsif (rising_edge(clock)) then
+				if (CCR_Load = '1') then
+					CCR_Result <= NZVC;
+				end if;
+			end if;
+	end process;
+-------------------------------------------------------------------------------
 	
 end architecture;
