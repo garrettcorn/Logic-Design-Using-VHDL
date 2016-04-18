@@ -10,6 +10,7 @@
 ----------------------------------------------------------------------
 library IEEE;
 use IEEE.std_logic_1164.all; 
+use IEEE.numeric_std.all;
 
 entity data_path is
 	port   (IR_Load		: in std_logic;
@@ -33,20 +34,22 @@ end entity;
 
 architecture data_path_arch of data_path is
 
--- Component Declaration
+	-- Component Declaration
 
-  component alu
-    port   (A			: in std_logic_vector (7 downto 0);
-			B			: in std_logic_vector (7 downto 0);
-			ALU_Sel		: in  std_logic_vector (2 downto 0);
-			NZVC		: out std_logic_vector (3 downto 0);
-			Result		: out std_logic_vector (7 downto 0));
-  end component;
+	component alu
+		port   (A			: in std_logic_vector (7 downto 0);
+				B			: in std_logic_vector (7 downto 0);
+				ALU_Sel		: in  std_logic_vector (2 downto 0);
+				NZVC		: out std_logic_vector (3 downto 0);
+				Result		: out std_logic_vector (7 downto 0));
+	end component;
 
- -- Signal Declaration
+	-- Signal Declaration
  
     signal  MAR, PC, A, B, alu_result, Bus1, Bus2 : std_logic_vector (7 downto 0);
 	signal  NZVC : std_logic_vector (3 downto 0);
+	signal PC_uns : unsigned (7 downto 0);
+	
 
   begin
     alu_0 : alu
@@ -102,6 +105,19 @@ architecture data_path_arch of data_path is
 			end if;
 	end process;
 	
+	PROGRAM_COUNTER : process (clock, reset)
+		begin
+			if (reset = '0') then
+				PC_uns <= x"00";
+			elsif (rising_edge(clock)) then
+				if (PC_Load = '1') then
+					PC_uns <= unsigned(Bus2);
+				elsif (PC_Inc = '1') then
+					PC_uns <= PC_uns + 1;
+				end if;
+			end if;
+	end process;
 	
+	PC <= std_logic_vector(PC_uns);
 	
 end architecture;
