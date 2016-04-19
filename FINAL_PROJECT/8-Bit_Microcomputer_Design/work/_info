@@ -128,7 +128,7 @@ R27
 R12
 R13
 Econtrol_unit
-Z28 w1461042056
+Z28 w1461044569
 R2
 R3
 R4
@@ -140,9 +140,9 @@ V?B@=Q<4<WU<ag0gkEX>=L0
 !s100 I7T5FbV?g>cH__ACT_STa2
 R7
 32
-Z31 !s110 1461042063
+Z31 !s110 1461044579
 !i10b 1
-Z32 !s108 1461042063.000000
+Z32 !s108 1461044579.000000
 Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/control_unit.vhd|
 Z34 !s107 E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/control_unit.vhd|
 !i113 1
@@ -154,8 +154,8 @@ R3
 Z35 DEx4 work 12 control_unit 0 22 ?B@=Q<4<WU<ag0gkEX>=L0
 l70
 L32
-V=n;CN8UkDbFh7g?[^NkHm1
-!s100 WMj4?eHEDm1CGGfYZR@eo3
+VZ<zSUbBYNER;7RHVON;HY3
+!s100 g8Xa_U@AeeNN^D@h]6V172
 R7
 32
 R31
