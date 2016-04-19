@@ -38,10 +38,10 @@ architecture control_unit_arch of control_unit is
 	constant LDB_DIR	:	std_logic_vector (7 downto 0)	:= x"89";  
 	constant STA_DIR	:	std_logic_vector (7 downto 0)	:= x"96";
 	constant STB_DIR	:	std_logic_vector (7 downto 0)	:= x"97";
-	constant ADD_AB	:	std_logic_vector (7 downto 0)	:= x"42";
-	constant SUB_AB	:	std_logic_vector (7 downto 0)	:= x"43";  
-	constant AND_AB	:	std_logic_vector (7 downto 0)	:= x"44";
-	constant OR_AB	:	std_logic_vector (7 downto 0)	:= x"45";
+	constant ADD_AB		:	std_logic_vector (7 downto 0)	:= x"42";
+	constant SUB_AB		:	std_logic_vector (7 downto 0)	:= x"43";  
+	constant AND_AB		:	std_logic_vector (7 downto 0)	:= x"44";
+	constant OR_AB		:	std_logic_vector (7 downto 0)	:= x"45";
 	constant INCA		:	std_logic_vector (7 downto 0)	:= x"46";
 	constant INCB		:	std_logic_vector (7 downto 0)	:= x"47";  
 	constant DECA		:	std_logic_vector (7 downto 0)	:= x"48";
@@ -259,8 +259,8 @@ architecture control_unit_arch of control_unit is
 						IR_Load		<= '0';
 						MAR_Load	<= '0';
 						PC_Load		<= '0';
-						PC_Inc		<= '1';
-						A_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '1';
 						B_Load		<= '0';
 						ALU_Sel		<= "000";
 						CCR_Load	<= '0';
@@ -360,7 +360,7 @@ architecture control_unit_arch of control_unit is
 						ALU_Sel		<= "000";
 						CCR_Load	<= '0';
 						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
-						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						Bus2_Sel	<= "01";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
 						write		<= '0';
 						
 					when S_STA_DIR_6 =>		-- Load operand from Bus2 onto MAR
@@ -386,7 +386,7 @@ architecture control_unit_arch of control_unit is
 						ALU_Sel		<= "000";
 						CCR_Load	<= '0';
 						Bus1_Sel	<= "01";	--  "00"=PC,  "01"=A,  "10"=B
-						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						Bus2_Sel	<= "10";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
 						write		<= '1';
 						
 					-- ADD_AB

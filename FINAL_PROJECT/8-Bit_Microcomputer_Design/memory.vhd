@@ -183,7 +183,7 @@ architecture memory_arch of memory is
 			elsif (address = x"FE") then data_out <= port_in_14;
 			elsif (address = x"FF") then data_out <= port_in_15;
 
-			else data_out <= "00";
+			else data_out <= x"00";
 			
 			end if;
         end process;

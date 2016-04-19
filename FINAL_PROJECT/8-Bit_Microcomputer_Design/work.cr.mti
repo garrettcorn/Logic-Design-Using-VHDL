@@ -1,12 +1,4 @@
-{E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/cpu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/cpu.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity cpu
--- Compiling architecture cpu_arch of cpu
-
-} {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rom_128x8_sync.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rom_128x8_sync.vhd}
+{E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rom_128x8_sync.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rom_128x8_sync.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -23,7 +15,15 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity computer_TB
 -- Compiling architecture computer_TB_arch of computer_TB
 
-} {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd} {2 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd}
+} {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/cpu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/cpu.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cpu
+-- Compiling architecture cpu_arch of cpu
+
+} {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -31,17 +31,6 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package NUMERIC_STD
 -- Compiling entity memory
 -- Compiling architecture memory_arch of memory
-** Warning: E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/memory.vhd(186): (vcom-1272) Length of expected is 8; length of actual is 2.
-
-
-} {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/data_path.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/data_path.vhd}
-Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity data_path
--- Compiling architecture data_path_arch of data_path
 
 } {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/alu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/alu.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -52,14 +41,14 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Compiling entity alu
 -- Compiling architecture alu_arch of alu
 
-} {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rw_96x8_sync.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rw_96x8_sync.vhd}
+} {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/data_path.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/data_path.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity rw_96x8_sync
--- Compiling architecture rw_96x8_sync_arch of rw_96x8_sync
+-- Compiling entity data_path
+-- Compiling architecture data_path_arch of data_path
 
 } {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/computer.vhd}
 Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
@@ -68,5 +57,14 @@ Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
 -- Loading package std_logic_1164
 -- Compiling entity computer
 -- Compiling architecture computer_arch of computer
+
+} {} {}} {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rw_96x8_sync.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/8-Bit_Microcomputer_Design/rw_96x8_sync.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rw_96x8_sync
+-- Compiling architecture rw_96x8_sync_arch of rw_96x8_sync
 
 } {} {}}
