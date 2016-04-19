@@ -59,8 +59,8 @@ architecture control_unit_arch of control_unit is
 	type state_type is  (S_FETCH_0, S_FETCH_1, S_FETCH_2,
 						S_DECODE_3,
 						S_LDA_IMM_4, S_LDA_IMM_5, S_LDA_IMM_6,
-						S_LDA_DIR_4, S_LDA_DIR_5, S_LDA_DIR_6, S_LDA_DIR_7,
-						S_STA_DIR_4, S_STA_DIR_5, S_STA_DIR_6, S_STA_DIR_7,
+						S_LDA_DIR_4, S_LDA_DIR_5, S_LDA_DIR_6, S_LDA_DIR_7, S_LDA_DIR_8,
+						S_STA_DIR_4, S_STA_DIR_5, S_STA_DIR_6, S_STA_DIR_7, 
 						S_ADD_AB_4,
 						S_BRA_4, S_BRA_5, S_BRA_6,
 						S_BEQ_4, S_BEQ_5, S_BEQ_6, S_BEQ_7);
@@ -129,6 +129,8 @@ architecture control_unit_arch of control_unit is
 				elsif (current_state = S_LDA_DIR_6) then
 					next_state <= S_LDA_DIR_7;
 				elsif (current_state = S_LDA_DIR_7) then
+					next_state <= S_LDA_DIR_8;
+				elsif (current_state = S_LDA_DIR_8) then
 					next_state <= S_FETCH_0;
 				-- STA_DIR --
 				elsif (current_state = S_STA_DIR_4) then
@@ -168,6 +170,9 @@ architecture control_unit_arch of control_unit is
 		OUTPUT_LOGIC : process (current_state)
 			begin
 				case(current_state) is
+				
+					-- FETCH
+				
 					when S_FETCH_0 =>		-- Put PC onto MAR to read Opcode
 						IR_Load		<= '0';
 						MAR_Load	<= '1';
@@ -207,7 +212,9 @@ architecture control_unit_arch of control_unit is
 						Bus2_Sel	<= "10";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
 						write		<= '0';
 						
-					when S_DECODE_3 =>		-- Decode
+					-- Decode
+						
+					when S_DECODE_3 =>		-- Do nothing while decoding
 						IR_Load		<= '0';
 						MAR_Load	<= '0';
 						PC_Load		<= '0';
@@ -219,6 +226,8 @@ architecture control_unit_arch of control_unit is
 						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
 						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
 						write		<= '0';
+						
+					-- LDA_IMM
 					
 					when S_LDA_IMM_4 =>		-- Put PC onto MAR to read Opcode
 						IR_Load		<= '0';
@@ -258,8 +267,23 @@ architecture control_unit_arch of control_unit is
 						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
 						Bus2_Sel	<= "10";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
 						write		<= '0';
+					
+					-- LDA_DIR
+					
+					when S_LDA_DIR_4 =>		-- Put PC onto MAR to read Opcode
+						IR_Load		<= '0';
+						MAR_Load	<= '1';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "01";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
 						
-					when others =>
+					when S_LDA_DIR_5 =>		-- Increment PC
 						IR_Load		<= '0';
 						MAR_Load	<= '0';
 						PC_Load		<= '0';
@@ -269,9 +293,213 @@ architecture control_unit_arch of control_unit is
 						ALU_Sel		<= "000";
 						CCR_Load	<= '0';
 						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+						
+					when S_LDA_DIR_6 =>		-- Load operand from Bus2 onto MAR
+						IR_Load		<= '0';
+						MAR_Load	<= '1';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
 						Bus2_Sel	<= "10";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
 						write		<= '0';
-					end case;
+					
+					when S_LDA_DIR_7 =>		-- Wait for memory
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+					
+					when S_LDA_DIR_8 =>		-- Load bus2 into A
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '1';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "10";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+						
+					-- STA_DIR
+					
+					when S_STA_DIR_4 =>		-- Put PC onto MAR to read Opcode
+						IR_Load		<= '0';
+						MAR_Load	<= '1';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "01";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+						
+					when S_STA_DIR_5 =>		-- Increment PC
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '0';
+						PC_Inc		<= '1';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+						
+					when S_STA_DIR_6 =>		-- Load operand from Bus2 onto MAR
+						IR_Load		<= '0';
+						MAR_Load	<= '1';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "10";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+					
+					when S_STA_DIR_7 =>		-- Wait for memory
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "01";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '1';
+						
+					-- ADD_AB
+					
+					when S_ADD_AB_4 =>		-- ADD A + B Store Sum in A
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '1';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";	--  "000"=ADD, "001"=SUB
+						CCR_Load	<= '1';
+						Bus1_Sel	<= "01";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '1';
+						
+					-- BRA
+					
+					when S_BRA_4 =>		-- Put PC onto MAR to read Opcode
+						IR_Load		<= '0';
+						MAR_Load	<= '1';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "01";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+					
+					when S_BRA_5 =>		-- wait
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "01";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+					
+					when S_BRA_6 =>		-- Latch operand into A
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '1';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "10";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+						
+					-- BEQ
+					
+					when S_BEQ_4 =>		-- Put PC onto MAR to read Opcode
+						IR_Load		<= '0';
+						MAR_Load	<= '1';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "01";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+						
+					when S_BEQ_5 =>		-- Wait
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '0';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+						
+					when S_BEQ_6 =>		-- Load Bus2 onto PC
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '1';
+						PC_Inc		<= '0';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "10";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+					
+					when S_BEQ_7 =>		-- Increment PC
+						IR_Load		<= '0';
+						MAR_Load	<= '0';
+						PC_Load		<= '0';
+						PC_Inc		<= '1';
+						A_Load		<= '0';
+						B_Load		<= '0';
+						ALU_Sel		<= "000";
+						CCR_Load	<= '0';
+						Bus1_Sel	<= "00";	--  "00"=PC,  "01"=A,  "10"=B
+						Bus2_Sel	<= "00";	--  "00"=ALU,  "01"=Bus1,  "10"=from_memory
+						write		<= '0';
+					
+				end case;
 		end process;
 	----------------------------------------------------------------------
 
