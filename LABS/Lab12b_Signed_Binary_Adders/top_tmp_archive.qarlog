@@ -1,0 +1,34 @@
+Quartus Prime Archive log --	E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/top_tmp_archive.qarlog
+
+Archive:	E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/top_tmp_archive.qar
+Date:		Sat Apr 23 20:01:59 2016
+Quartus Prime		15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/Chain6.cdf
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/assignment_defaults.qdf
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/Chain1.cdf
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/Chain2.cdf
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/Chain3.cdf
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/Chain4.cdf
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/Chain5.cdf
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/bcd.vhd
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/char_decoder.vhd
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/clock_div_2ton.vhd
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/clock_div_prec.vhd
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/output_files/dflipflop.vhd
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/rom_16x4_sync.vhd
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/top.qpf
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/top.qsf
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/top.vhd
+E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/twos_comp_decocer.vhd
+	======= Total: 17 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Apr 23 20:02:03 2016
+Source archive file:	E:/WORK/School/EELE 367 Logic Design/LABS/Lab12b_Signed_Binary_Adders/top_tmp_archive.qar
+Archive was extracted into	E:/WORK/School/EELE 367 Logic Design/FINAL_PROJECT/Part 3/
+		 - successfully.
