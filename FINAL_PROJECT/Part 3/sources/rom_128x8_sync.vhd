@@ -47,17 +47,17 @@ architecture rom_128x8_sync_arch of rom_128x8_sync is
   
   type ROM_type is array (0 to 127) of std_logic_vector(7 downto 0);
   
-  constant ROM : ROM_type :=    (0		=>	LDA_IMM,
-											1		=>	x"AA",
-											2		=>	STA_DIR,
-											3		=> x"80",
-											4		=>	LDA_DIR,
-											5		=> x"80",
-											6		=>	STA_DIR,
-											7		=> x"E2",
-											8		=> BRA,
-											9		=> x"00",
-											others 	=>  x"00");
+  constant ROM : ROM_type :=   (0	=>	LDA_IMM,
+				1	=>	x"AA",
+				2	=>	STA_DIR,
+				3	=> 	x"80",
+				4	=>	LDA_DIR,
+				5	=> 	x"80",
+				6	=>	STA_DIR,
+				7	=> 	x"E2",
+				8	=> 	BRA,
+				9	=> 	x"00",
+				others 	=>  x"00");
 								
   signal EN : std_logic;
   
