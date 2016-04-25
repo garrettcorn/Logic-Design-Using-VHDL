@@ -23,10 +23,10 @@ end entity;
 architecture rw_96x8_sync_arch of rw_96x8_sync is
 
   -- Signal Declaration 
-  type rw_type is array (128 to 223) of std_logic_vector(7 downto 0);
+  type rw_type is array (128 to 223) of std_logic_vector(7 downto 0) := x"00";
   signal RW : rw_type;
   
-  signal EN : std_logic := '1';
+  signal EN : std_logic := '0';
 
   begin
   

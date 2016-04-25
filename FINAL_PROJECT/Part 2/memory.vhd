@@ -157,15 +157,11 @@ architecture memory_arch of memory is
 					  port_in_15)
         begin
 			if ( (to_integer(unsigned(address)) >= 0) and
-				 (to_integer(unsigned(address)) <= 127)) then
-				
-				data_out <= rom_data_out;
-				
+				 (to_integer(unsigned(address)) <= 127)) then				
+				data_out <= rom_data_out;				
 			elsif ( (to_integer(unsigned(address)) >= 128) and -- 0x80 - 0xDF
-				 (to_integer(unsigned(address)) <= 223)) then
-				
-				data_out <= rw_data_out;
-			
+				 (to_integer(unsigned(address)) <= 223)) then				
+				data_out <= rw_data_out;			
 			elsif (address = x"F0") then data_out <= port_in_00;
 			elsif (address = x"F1") then data_out <= port_in_01;
 			elsif (address = x"F2") then data_out <= port_in_02;
@@ -182,9 +178,7 @@ architecture memory_arch of memory is
 			elsif (address = x"FD") then data_out <= port_in_13;
 			elsif (address = x"FE") then data_out <= port_in_14;
 			elsif (address = x"FF") then data_out <= port_in_15;
-
-			else data_out <= x"00";
-			
+			else data_out <= x"00";			
 			end if;
         end process;
 -----------------------------------------------

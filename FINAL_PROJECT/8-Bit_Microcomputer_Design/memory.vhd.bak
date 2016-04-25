@@ -159,19 +159,15 @@ architecture memory_arch of memory is
 			if ( (to_integer(unsigned(address)) >= 0) and
 				 (to_integer(unsigned(address)) <= 127)) then
 				if(rom_data_out = "UUUUUUUU") then
-					data_out <= x"00";
+					data <= x"00";
 				else
 					data_out <= rom_data_out;
 				end if;
 				
 			elsif ( (to_integer(unsigned(address)) >= 128) and -- 0x80 - 0xDF
 				 (to_integer(unsigned(address)) <= 223)) then
-				if(rom_data_out = "UUUUUUUU") then
-					data_out <= x"00";
-				else
-					data_out <= rw_data_out;
-				end if;
 				
+				data_out <= rw_data_out;
 			
 			elsif (address = x"F0") then data_out <= port_in_00;
 			elsif (address = x"F1") then data_out <= port_in_01;
