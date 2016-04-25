@@ -26,7 +26,7 @@ architecture rw_96x8_sync_arch of rw_96x8_sync is
   type rw_type is array (128 to 223) of std_logic_vector(7 downto 0);
   signal RW : rw_type;
   
-  signal EN : std_logic;
+  signal EN : std_logic := '1';
 
   begin
   
@@ -42,11 +42,15 @@ architecture rw_96x8_sync_arch of rw_96x8_sync is
 	
 	MEMORY : process (clock)
 		begin
-			if (rising_edge(clock) and EN = '1') then
-				if (write = '1') then
+			if (rising_edge(clock)) then
+				if (EN = '1' and write = '1') then
 					RW(to_integer(unsigned(address))) <= data_in;
-				elsif (write = '0') then
-					data_out <= RW(to_integer(unsigned(address)));
+				elsif (EN = '1' and write = '0') then
+					if(RW(to_integer(unsigned(address))) >= x"00") then
+						data_out <= RW(to_integer(unsigned(address)));												
+					else
+						data_out <= x"00";
+					end if;
 				end if;
 			end if;
 	end process;
